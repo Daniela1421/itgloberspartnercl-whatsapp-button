@@ -19,13 +19,14 @@ const WhatsappButton = ({logo, phone, message, width, height}: Props) => {
         href={`https://wa.me/${phone}?text=${formattedMessage}`}
         target="_blank"
         rel="noreferrer noopener"
-      ></a>
+      >
         <img 
           src={logo} 
           width={width} 
           height={height} 
           alt="Logo de whatsapp"
         />
+      </a>
     </div>
   </>
 } 
